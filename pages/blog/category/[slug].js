@@ -6,7 +6,7 @@ import Posts from 'components/posts'
 import { getPlaiceholder } from 'plaiceholder'
 
 // ローカルの代替アイキャッチ
-import { eyecatchLocal } from 'lib/api'
+import { eyecatchLocal } from 'lib/constants'
 
 export default function Category({ name, posts }) {
   return (
